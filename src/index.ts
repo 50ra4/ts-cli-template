@@ -1,5 +1,5 @@
 const main = () => {
-    console.log('hoge');
-}
+  console.log('hoge');
+};
 
 main();
