@@ -2,10 +2,23 @@
   "name": "ts-cli-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "start": "ts-node-esm -T src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "50ra4",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "ts-node": "10.9.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.57.1",
+    "@typescript-eslint/parser": "5.57.1",
+    "eslint": "8.37.0",
+    "eslint-config-prettier": "8.8.0",
+    "jest": "29.5.0",
+    "prettier": "2.8.7",
+    "typescript": "5.0.3"
+  }
 }
