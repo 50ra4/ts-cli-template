@@ -7,7 +7,8 @@
     "lint:prettier": "prettier --write 'src/**/*.{js,ts,tsx}'",
     "lint:eslint": "eslint --fix 'src/**/*.{js,ts,tsx}'",
     "lint": "npm run lint:prettier && npm run lint:eslint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-type": "tsc --noEmit"
   },
   "author": "50ra4",
   "license": "MIT",
